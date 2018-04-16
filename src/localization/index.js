@@ -27,34 +27,34 @@ export const defaultLocalization: MultiLocalization = {
   en: {
     cart: {
       shoppingCartTitle: {
-        text: 'Shopping cart',
+        text: 'Einkaufswagen',
         component: 'h4',
       },
       productName: {
         text: '{localizedName}',
         component: 'h5',
       },
-      quantityLabel: 'Quantity:',
-      priceLabel: 'Price:',
+      quantityLabel: 'Quantität:',
+      priceLabel: 'Preis:',
       priceValue: '{price, number, CUR}',
-      totalLabel: 'Total:',
+      totalLabel: 'Summe:',
       totalValue: '{total, number, CUR}',
-      remove: 'Remove',
+      remove: 'Löschen',
       productPropertyLabel: '{localizedName}:',
       productPropertyValue: '{localizedValue}',
     },
     checkoutButton: {
       checkoutTotal:
-        'Checkout (Grand total {total, number, CUR})',
+        'Auschecken (Summe {total, number, CUR})',
     },
     product: {
       price: {
-        text: 'Price: {price, number, CUR}',
+        text: 'Preis: {price, number, CUR}',
         component: 'strong',
       },
-      quantityLabel: 'Quantity:',
+      quantityLabel: 'Quantität:',
       propertyLabel: '{localizedName}:',
-      addToCart: 'Add to cart',
+      addToCart: 'In den Einkaufswagen',
     },
   },
 };
