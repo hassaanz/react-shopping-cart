@@ -50,7 +50,7 @@ export const defaultLocalization: MultiLocalization = {
     product: {
       price: {
         text: '',
-        component: 'p',
+        component: 'span',
       },
       quantityLabel: 'Quantität:',
       propertyLabel: '{localizedName}:',
