@@ -49,8 +49,8 @@ export const defaultLocalization: MultiLocalization = {
     },
     product: {
       price: {
-        text: 'Preis: {price, number, CUR}',
-        component: 'strong',
+        text: '',
+        component: 'p',
       },
       quantityLabel: 'Quantität:',
       propertyLabel: '{localizedName}:',
